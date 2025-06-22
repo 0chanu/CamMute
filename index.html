@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>CamMute</title>
+</head>
+<body>
+  <h1>CamMute</h1>
+  <button id="disable">장치 비활성화</button>
+  <button id="enable">장치 활성화</button>
+  <script>
+    document.getElementById('disable').addEventListener('click', () => {
+      window.controls.disable();
+    });
+    document.getElementById('enable').addEventListener('click', () => {
+      window.controls.enable();
+    });
+  </script>
+</body>
+</html>
