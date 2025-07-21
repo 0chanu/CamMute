@@ -13,6 +13,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "electron": "^26.0.0"
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "electron": "^26.0.0",
+    "fluent-ffmpeg": "^2.1.3"
   }
 }
